@@ -1,0 +1,55 @@
+
+
+.header {
+    // padding: 2rem;  
+    // margin: 2rem;  
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+    
+    &__logo {
+        height: 3.5rem;
+    }
+    &__text-box {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
+
+.navigation {
+    float: right;
+    list-style: none;
+    padding: 1.5rem;
+
+    li {
+        display: inline;
+        margin-right: 5rem;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 1.7rem;
+        font-weight: 900;
+        margin-bottom: 3px;
+        color: $color-black;
+        // outline-offset: 2rem;
+        &:hover, &:active{
+            color: $color-red;
+            border-bottom: .5rem solid red;
+        }
+    }
+    
+    .active {
+        color: $color-red;
+        border-bottom: .5rem solid red;
+    }
+
+}
+
+
+

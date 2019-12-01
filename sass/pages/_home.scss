@@ -1,0 +1,110 @@
+.section-about {
+    // background-color: $color-gray-light-1;
+    margin: 8rem 0;
+    height: 50vh;
+    background-image: url(../../img/Draya_crop-removebg-preview.png);
+    background-color: black;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    // clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
+    // margin-top: -5vh;
+}
+
+.section-artist {
+    width: 80%;
+    margin: 0 auto;
+    .artist {
+        &__photo {
+            width: 100%;
+            box-shadow: 0 1.5rem 4rem rgba(black, .4);
+            border-radius: 2px;
+            /* position: absolute; */
+            z-index: 0;
+            transition: all .25s;
+            outline-offset: 2rem;
+            /* height: 50%; */
+            /* clip-path: polygon(0 0, 100% 0, 100% 60%, 0 60%); */
+        }
+        &__photo:hover {
+            outline: 1.5px solid black;
+            transform: scale(2.05) translateY(-.5rem);
+            box-shadow: 0 2.5rem 4rem rgba(black, .4);
+            z-index: 20;
+        }
+        &__text {
+            &--main {
+                display: block;
+                font-size: 2rem;
+                color: $color-black;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.section-shop {
+    background-color: rgb(241, 243, 244);
+    padding: 5rem;
+    // margin-bottom: 4rem;
+    width: 80%;
+    margin: 0 auto;
+    .about__image {
+        &--display {
+            width: 100%;
+        }
+    }
+    .about-text {
+        margin-top: 5.5rem;
+    }
+}
+
+.section-blog {
+    .artist {
+        &__photo {
+            // width: 100%;
+            box-shadow: 0 1.5rem 4rem rgba(black, .4);
+            border-radius: 2px;
+            /* position: absolute; */
+            z-index: 0;
+            transition: all .25s;
+            outline-offset: 2rem;
+            /* height: 50%; */
+            /* clip-path: polygon(0 0, 100% 0, 100% 60%, 0 60%); */
+        }
+        &__photo:hover {
+            outline: 1.5px solid red;
+            transform: scale(1.05) translateY(-.5rem);
+            box-shadow: 0 2.5rem 4rem rgba(red, .4);
+            z-index: 20;
+        }
+        &__text {
+            &--main {
+                display: block;
+                font-size: 2rem;
+                color: $color-black;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.index-pics {
+    .artist {
+        &__photo {
+            width: 100%;
+        }
+    }
+    width: 80%;
+    margin: 0 auto;
+}
+
+.artist-pics {
+    .artist {
+        &__photo {
+            width: 100%;
+        }
+    }
+    width: 40%;
+    margin: 0 auto;
+}

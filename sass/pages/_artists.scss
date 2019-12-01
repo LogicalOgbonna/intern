@@ -1,0 +1,15 @@
+.page-artist {
+    background-color: $color-white;
+    padding: 5rem;
+    // margin-bottom: 4rem;
+    // margin-top: 5rem;
+    margin: 10rem;
+    .artist__image {
+        &--display {
+            width: 80%;
+        }
+    }
+    .about-text {
+        margin-top: 30%;
+    }
+}
