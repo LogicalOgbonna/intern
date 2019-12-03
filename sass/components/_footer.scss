@@ -1,18 +1,18 @@
 .section-footer {
     .footer {
         padding: 3rem;
-        margin:10rem;
-
+        margin: 10rem;
         &-navigation {
-            text-align:center;
+            text-align: center;
             padding: 40px;
-            }
-            &-navigation li {
-            display:inline;
-            }
-            &-navigation a {
-            text-decoration:none; 
-            padding:0 30px; /* variable width */
-            }
+        }
+        &-navigation li {
+            display: inline;
+        }
+        &-navigation a {
+            text-decoration: none;
+            padding: 0 30px;
+            /* variable width */
+        }
     }
 }

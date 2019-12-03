@@ -1,0 +1,196 @@
+    .about-header {
+        // padding-top: 10rem;
+        // margin: 10rem 25rem 25rem 0rem;
+        margin-top: 10rem;
+        margin-right: 25rem;
+        margin-left: 25rem;
+        margin-bottom: 5rem;
+        // margin-top: 8rem;
+        .about-hero {
+            // background-image: url();
+            &__image {
+                // height: 50hv;
+                // width: 100%;
+                background-position: center;
+                background-size: auto;
+                clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+            }
+            &__image-box {
+                height: 10vh;
+            }
+        }
+    }
+    
+    .about-hero-image {
+        img {
+            // height: 500px;
+            width: 100%;
+        }
+    }
+    
+    .about-hero-text {
+        p {
+            padding: 2rem;
+            font-size: 1.5rem;
+        }
+    }
+    
+    .section-history {
+        width: 80%;
+        &__image {
+            width: 80%
+        }
+        &__text {
+            margin-top: 5rem;
+            padding: 5rem;
+            h3 {
+                font-weight: 900;
+            }
+        }
+    }
+    
+    .clipped-image {
+        margin-top: 10rem;
+        background-color: red;
+        height: 50rem;
+        margin-bottom: 15rem;
+        &__text {
+            text-align: center;
+            padding-top: 10rem;
+            padding-left: 10rem;
+            padding-right: 10rem;
+            padding-bottom: 5rem;
+            color: white;
+            &--main {
+                display: block;
+                line-height: 3rem;
+                font-weight: 700;
+                font-size: 3rem;
+                letter-spacing: .2rem;
+            }
+            &--sub {
+                display: block;
+                display: block;
+                line-height: 3rem;
+                font-weight: 700;
+                font-size: 3rem;
+                margin-top: 2rem;
+                letter-spacing: .2rem;
+            }
+        }
+        &__image {
+            width: 50%;
+            margin: 0 auto;
+            &--display {
+                width: 100%;
+            }
+            h3 {
+                padding: 1rem;
+            }
+            &--name {
+                display: block;
+                text-align: center;
+                font-weight: 800;
+            }
+            &--title {
+                display: block;
+                text-align: center;
+            }
+        }
+        // clip-path: polygon(10% 0, 90% 0, 100% 100%, 0 100%);
+    }
+    
+    .section-quotes {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .big_blockquote {
+        blockquote {
+            border: none;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            // margin-bottom: -30px;
+            position: relative;
+            max-width: 100%;
+            display: block;
+            text-align: center;
+            // margin: 0 auto;
+            // padding-left: 0.4em;
+        }
+        blockquote h3 {
+            font-size: 21px;
+            text-align: center;
+        }
+        // blockquote h3:before {
+        //     content: "\201C";
+        //     font-weight: bold;
+        //     font-size: 100px;
+        //     color: $color-black;
+        //     position: absolute;
+        //     top: -0.2em;
+        //     left: -0.5em;
+        //     font-family: 'Georgia';
+        // }
+        blockquote h3:after {
+            content: "\201D";
+            font-weight: bold;
+            font-size: 150px;
+            color: $color-black;
+            // position: absolute;
+            // bottom: -0.6em;
+            // right: 0;
+            top: 20%;
+            left: 50%;
+            font-family: 'Georgia';
+        }
+    }
+    
+    .small_blockquote {
+        blockquote {
+            border: none;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            margin-bottom: -30px;
+        }
+        blockquote h3 {
+            font-size: 21px;
+            color: $color-black;
+            font-weight: 400;
+        }
+        blockquote h3:before {
+            content: "\201C";
+            color: $color-black;
+            font-family: 'Georgia';
+        }
+        blockquote h3:after {
+            content: "\201D";
+            // font-weight: bold;
+            // font-size: 100px;
+            color: $color-black;
+            font-family: 'Georgia';
+        }
+    }
+    
+    .section-carousel {
+        margin: 10rem;
+        &__image {
+            width: 50%
+        }
+        img {
+            width: 20%;
+            height: 5%;
+        }
+        div {
+            // width: 100%;
+            img {}
+        }
+        h2 {
+            margin-left: 10rem;
+        }
+    }
+    
+    .section-carousel__image {
+        height: 20%;
+        // border: 2px solid green;
+        padding: 3rem;
+        width: 100px;
+    }

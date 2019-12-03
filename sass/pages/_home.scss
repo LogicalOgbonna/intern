@@ -108,3 +108,31 @@
     width: 40%;
     margin: 0 auto;
 }
+
+.index-section-carousel {
+    width: 80%;
+    margin: 0 auto;
+    background-color: black;
+    &__image {
+        width: 50%
+    }
+    img {
+        width: 20%;
+        height: 5%;
+    }
+    div {
+        // width: 100%;
+        img {}
+    }
+    h2 {
+        color: white;
+        padding: 3rem;
+    }
+}
+
+.index-section-carousel__image {
+    height: 20%;
+    // border: 2px solid green;
+    padding: 3rem;
+    width: 100px;
+}

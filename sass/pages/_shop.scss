@@ -9,4 +9,18 @@
     &--display {
         width: 100%;
     }
+    h3 {
+        display: inline-block;
+    }
+    &__text {
+        padding: 2rem;
+        &--main {
+            display: block;
+            font-size: 2rem;
+            font-weight: 800;
+        }
+        &--sub {
+            display: block;
+        }
+    }
 }

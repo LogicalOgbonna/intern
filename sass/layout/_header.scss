@@ -1,16 +1,14 @@
-
-
 .header {
     // padding: 2rem;  
     // margin: 2rem;  
     &__logo-box {
         position: absolute;
-        top: 4rem;
-        left: 4rem;
+        // top: 4rem;
+        // left: 4rem;
     }
-    
     &__logo {
-        height: 3.5rem;
+        height: 10rem;
+        // width: 50%;
     }
     &__text-box {
         position: absolute;
@@ -25,12 +23,10 @@
     float: right;
     list-style: none;
     padding: 1.5rem;
-
     li {
         display: inline;
         margin-right: 5rem;
     }
-
     a {
         text-decoration: none;
         font-size: 1.7rem;
@@ -38,18 +34,23 @@
         margin-bottom: 3px;
         color: $color-black;
         // outline-offset: 2rem;
-        &:hover, &:active{
+        &:hover,
+        &:active {
             color: $color-red;
             border-bottom: .5rem solid red;
         }
     }
-    
     .active {
         color: $color-red;
         border-bottom: .5rem solid red;
     }
-
 }
 
+.center-navigation {
+    width: 50%;
+    margin: 0 auto;
+}
 
-
+.right {
+    margin: auto 0;
+}
